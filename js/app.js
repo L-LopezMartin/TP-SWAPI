@@ -1,4 +1,5 @@
-let containerTrajetas= document.querySelector('.containerTrajetas')
+let containerTrajetas= document.querySelector('.containerCard')
+let tituloTarjetas= document.querySelector('.resultsTitle')
 
 const fetchearPersonajes=()=>{
     fetch('https://swapi.dev/api/people/')
@@ -10,6 +11,7 @@ const fetchearPersonajes=()=>{
 }
 
 async function mostrarPersonajes(personajes){
+    tituloTarjetas.innerHTML='PERSONAJES'
     for(let personaje of personajes){
         const {name, height, gender, birth_year, homeworld, species, films} = personaje
 

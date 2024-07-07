@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --amarilloSW: rgb(255, 193, 7);
+    --amarilloSWOscuro: rgb(199, 149, 0);
+}
+
+.rowFlex{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.textFont{
+    color: gainsboro;
+}
+
+body{
+    width: 90vw;
+    background-image: url('../img/Stars\ background.jpg');
+    background-size: 50%;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 0 5vw;
+    width: 100vw;
+    border: 0;
+    border-bottom: 5px;
+    border-style: solid;
+    border-color: var(--amarilloSWOscuro);
+}
+
+.logo{
+    height: 100px;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+}
+
+
+
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    margin: 0 5vw;
+}
+
+.home div{
+    background-color: black;
+    height: 300px;
+    width: 40%;
+    border-color: var(--amarilloSWOscuro);
+    border-style: solid;
+    border-top: 3px;
+    border-right: 3px;
+    border-radius: 0 7px;
+}
+
+.homeImg{
+    height: 300px;
+    width: 550px;
+    border-color: var(--amarilloSWOscuro);
+    border-style: solid;
+    border-left: 3px;
+    border-top: 3px;
+    border-radius: 0 0 7px 0;
+    background-image: url('../img/Great_Jedi_Library.webp');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.results{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    margin: 0 5vw;
+}
+
+.resultsTitle{
+    background-color: black;
+    border: 3px var(--amarilloSWOscuro) solid;
+    border-radius: 5px;
+    width: 300px;
+    color: var(--amarilloSW);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.containerCard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}

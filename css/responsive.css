@@ -1,0 +1,23 @@
+@media(max-width: 768px){
+    .homeImg{
+        background-image: url('../img/Great_Jedi_Library_cropped.webp');
+        width: 300px;
+    }
+    .home div{
+        width: 50vw;
+    }
+}
+
+@media(max-width: 425px){
+    .homeImg{
+        display: none;
+    }
+    .home div{
+        border: 3px solid var(--amarilloSWOscuro);
+        border-radius: 0 0 7px 7px;
+        border-top: 0;
+        width: 90vw;
+        height: 200px;
+    }
+
+}
